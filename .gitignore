@@ -1,0 +1,43 @@
+# =====================
+# DATA (NEVER COMMIT)
+# =====================
+data/raw/
+data/processed/
+data/splits/
+
+*.nii
+*.nii.gz
+
+# =====================
+# NOTEBOOK ARTIFACTS
+# =====================
+.ipynb_checkpoints/
+
+# =====================
+# PYTHON
+# =====================
+__pycache__/
+*.pyc
+*.pyo
+
+# =====================
+# ENVIRONMENTS & SECRETS
+# =====================
+.env
+.envrc
+.env.*
+*.lock
+
+# =====================
+# OS / EDITOR
+# =====================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =====================
+# LOGS & OUTPUTS
+# =====================
+logs/
+outputs/
