@@ -20,7 +20,7 @@ The project emphasizes **robust experimental design, interpretability, and clini
 - **Classes:** CN (Healthy), MCI, AD
 - **Input:** Baseline T1-weighted structural brain MRI (one scan per subject)
 - **Output:** Predicted diagnostic category {CN, MCI, AD}
-- **Dataset:** OASIS-3 (baseline scans only for v1)
+- **Dataset:** OASIS-1 (baseline scans only for v1)
 
 ---
 
