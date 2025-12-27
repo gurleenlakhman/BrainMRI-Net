@@ -72,16 +72,15 @@ Macro-averaged metrics are emphasized to avoid inflated performance from majorit
 7. Comparative analysis of attention patterns across CN, MCI, and AD  
 
 ---
-
 ## 📁 Repository Structure
-BrainMRI-Net/
-├── docs/ # Task specifications and documentation
-├── data/ # Raw and processed data (excluded from version control)
-├── notebooks/ # Exploratory analysis and experiments
-├── src/ # Reusable preprocessing and modeling code
-├── experiments/ # Experiment-specific configurations and outputs
 
----
+- **`docs/`** — task specifications and documentation  
+- **`data/`** — raw and processed MRI data (excluded from version control)  
+- **`notebooks/`** — exploratory analysis and experiments  
+- **`src/`** — reusable preprocessing and modeling code  
+- **`experiments/`** — experiment-specific configurations and outputs  
+
+
 
 ## 🚧 Project Status
 - [x] Task definition
