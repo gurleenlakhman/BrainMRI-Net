@@ -1,3 +1,11 @@
 name: brainnetmri-env
 channels:
+  - conda-forge
 dependencies:
+  - python=3.10
+  - ipykernel
+  - numpy
+  - pandas
+  - openpyxl
+  - jupyterlab
+
