@@ -3,7 +3,7 @@
 
 ---
 
-## 🧠 Project Motivation
+## Project Motivation
 Alzheimer’s disease is a progressive neurodegenerative disorder where early detection is critical for timely intervention and care planning. Structural brain MRI captures neuroanatomical changes associated with disease progression, making it a key modality for computational analysis.
 
 **BrainMRI-Net** explores how machine learning and deep learning models can leverage structural MRI to distinguish between:
@@ -15,7 +15,7 @@ The project emphasizes **robust experimental design, interpretability, and clini
 
 ---
 
-## 🎯 Task Definition
+## Task Definition
 - **Problem Type:** Multiclass classification (3 classes)
 - **Classes:** CN (Healthy), MCI, AD
 - **Input:** Baseline T1-weighted structural brain MRI (one scan per subject)
@@ -24,7 +24,7 @@ The project emphasizes **robust experimental design, interpretability, and clini
 
 ---
 
-## 🏷️ Label Mapping Strategy
+## Label Mapping Strategy
 Clinical diagnostic labels are mapped to model classes using the following rules:
 
 | Dataset Label | Model Class |
@@ -40,7 +40,7 @@ This controlled mapping reduces label noise and ensures a clinically interpretab
 
 ---
 
-## 🔬 Experimental Design
+## Experimental Design
 - **One scan per subject** (baseline visit only)
 - **Subject-level data splitting** to prevent data leakage
 - **Train / Validation / Test split:** 70% / 15% / 15%
@@ -48,7 +48,7 @@ This controlled mapping reduces label noise and ensures a clinically interpretab
 
 ---
 
-## 📊 Evaluation Metrics
+## Evaluation Metrics
 Given class imbalance and clinical priorities, performance is evaluated using:
 
 - **Primary Metric:** Macro F1 score
@@ -62,7 +62,7 @@ Macro-averaged metrics are emphasized to avoid inflated performance from majorit
 
 ---
 
-## 🧪 Planned Methodology
+## Planned Methodology
 1. Dataset exploration and metadata analysis  
 2. MRI preprocessing (normalization, resizing, standardization)  
 3. Baseline models using clinical features (e.g., age, volumetric proxies)  
@@ -72,7 +72,7 @@ Macro-averaged metrics are emphasized to avoid inflated performance from majorit
 7. Comparative analysis of attention patterns across CN, MCI, and AD  
 
 ---
-## 📁 Repository Structure
+## Repository Structure
 
 - **`docs/`** — task specifications and documentation  
 - **`data/`** — raw and processed MRI data (excluded from version control)  
@@ -82,7 +82,7 @@ Macro-averaged metrics are emphasized to avoid inflated performance from majorit
 
 
 
-## 🚧 Project Status
+## Project Status
 - [x] Task definition
 - [x] Repository setup & git safety
 - [x] Documentation (README, task spec)
@@ -94,6 +94,6 @@ Macro-averaged metrics are emphasized to avoid inflated performance from majorit
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 This project is intended for **research and educational purposes only**.  
 It is **not** a clinical diagnostic tool and should not be used for medical decision-making.
