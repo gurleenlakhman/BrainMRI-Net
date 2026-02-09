@@ -2,7 +2,10 @@
 # DATA (NEVER COMMIT)
 # =====================
 data/raw/
-data/processed/
+data/*
+!data/processed/
+!data/processed/*.csv
+
 data/splits/
 
 *.nii
